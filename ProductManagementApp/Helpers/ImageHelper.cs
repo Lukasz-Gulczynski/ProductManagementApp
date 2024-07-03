@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Windows.Media.Imaging;
 
-namespace ProductManagementApp
+namespace ProductManagementApp.Helpers
 {
     public static class ImageHelper
     {

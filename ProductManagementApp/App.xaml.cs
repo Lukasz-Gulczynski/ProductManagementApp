@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using ProductManagement.DAL;
 using ProductManagementApp.DAL;
+using ProductManagementApp.DAL.Interfaces;
 using ProductManagementApp.DAL.Models;
 using ProductManagementApp.DAL.Repositories;
 using ProductManagementApp.Enums;

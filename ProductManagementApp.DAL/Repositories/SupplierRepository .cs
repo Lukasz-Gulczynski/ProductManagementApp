@@ -1,4 +1,5 @@
 ﻿using ProductManagement.DAL;
+using ProductManagementApp.DAL.Interfaces;
 using ProductManagementApp.DAL.Models;
 using System.Collections.ObjectModel;
 

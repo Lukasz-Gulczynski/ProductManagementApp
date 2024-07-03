@@ -12,3 +12,4 @@ C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\obj\De
 C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\obj\Debug\net8.0\ProductManagementApp.DAL.pdb
 C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\obj\Debug\net8.0\ProductManagementApp.DAL.genruntimeconfig.cache
 C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\obj\Debug\net8.0\ref\ProductManagementApp.DAL.dll
+C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\obj\Debug\net8.0\ProductManagementApp.DAL.sourcelink.json

@@ -1,6 +1,7 @@
 ﻿using ProductManagementApp.Interfaces;
 using ProductManagementApp.ViewModels;
 using System.Collections.ObjectModel;
+using System.Windows;
 using System.Windows.Media.Imaging;
 using System.Xml.Linq;
 
@@ -64,13 +65,13 @@ namespace ProductManagementApp.Mappers
                 {
                     var bitmapImage = new BitmapImage();
                     bitmapImage.BeginInit();
-                    bitmapImage.UriSource = new System.Uri(url, System.UriKind.Absolute);
+                    bitmapImage.UriSource = new Uri(url, UriKind.Absolute);
                     bitmapImage.EndInit();
                     bitmapImages.Add(bitmapImage);
                 }
-                catch (System.Exception)
+                catch (Exception)
                 {
-                    // Log or handle exceptions if necessary
+                    MessageBox.Show($"Error while converting url to bitmapImage");
                 }
             }
 

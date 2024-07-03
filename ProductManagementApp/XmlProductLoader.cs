@@ -1,12 +1,9 @@
-﻿using ProductManagementApp.Interfaces;
+﻿using ProductManagementApp.Enums;
+using ProductManagementApp.Helpers;
+using ProductManagementApp.Interfaces;
 using ProductManagementApp.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows;
 using System.Xml.Linq;
-using ProductManagementApp.Enums;
-using ProductManagementApp.Helpers;
 
 namespace ProductManagementApp
 {
@@ -22,7 +19,6 @@ namespace ProductManagementApp
         public List<ProductViewModel> LoadProductsFromXml(string filePath, SupplierType supplierType)
         {
             List<ProductViewModel> products = new List<ProductViewModel>();
-            string supplierName;
 
             try
             {
@@ -38,6 +34,7 @@ namespace ProductManagementApp
                 {
                     ProductViewModel newProduct = mapper.MapFromXml(productElement);
                     newProduct.SupplierName = SupplierTypeHelper.GetSupplierName(supplierType);
+                    newProduct.SupplierId = (int)supplierType;
                     products.Add(newProduct);
                 }
             }

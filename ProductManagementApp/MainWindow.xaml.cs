@@ -98,10 +98,8 @@ namespace ProductManagementApp
 
                     var xmlProductLoader = App.ServiceProvider.GetRequiredService<XmlProductLoader>();
 
-                    // Load products from XML
                     List<ProductViewModel> products = xmlProductLoader.LoadProductsFromXml(filePath, supplierType);
 
-                    // Get appropriate mapper based on SupplierType
                     IProductMapper mapper = GetMapperForSupplier(xmlProductLoader, supplierType);
 
                     if (mapper == null)
@@ -137,13 +135,13 @@ namespace ProductManagementApp
             switch (supplierType)
             {
                 case SupplierType.Supplier1:
-                    return new Supplier1ProductMapper(); // Return instance of Supplier1ProductMapper
+                    return new Supplier1ProductMapper();
                 case SupplierType.Supplier2:
-                    return new Supplier2ProductMapper(); // Return instance of Supplier2ProductMapper
+                    return new Supplier2ProductMapper();
                 case SupplierType.Supplier3:
-                    return new Supplier3ProductMapper(); // Return instance of Supplier3ProductMapper
+                    return new Supplier3ProductMapper();
                 default:
-                    return null; // Handle other cases or return null if no mapper found
+                    return null;
             }
         }
 

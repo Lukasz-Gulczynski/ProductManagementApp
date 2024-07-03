@@ -1,7 +1,7 @@
 ﻿using ProductManagementApp.DAL.Models;
 using System.Collections.ObjectModel;
 
-namespace ProductManagementApp.DAL
+namespace ProductManagementApp.DAL.Interfaces
 {
     public interface ISupplierRepository
     {
