@@ -1,0 +1,14 @@
+C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\bin\Debug\net8.0\ProductManagementApp.DAL.deps.json
+C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\bin\Debug\net8.0\ProductManagementApp.DAL.runtimeconfig.json
+C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\bin\Debug\net8.0\ProductManagementApp.DAL.dll
+C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\bin\Debug\net8.0\ProductManagementApp.DAL.pdb
+C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\obj\Debug\net8.0\ProductManagementApp.DAL.csproj.AssemblyReference.cache
+C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\obj\Debug\net8.0\ProductManagementApp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\obj\Debug\net8.0\ProductManagementApp.DAL.AssemblyInfoInputs.cache
+C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\obj\Debug\net8.0\ProductManagementApp.DAL.AssemblyInfo.cs
+C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\obj\Debug\net8.0\ProductManagementApp.DAL.csproj.CoreCompileInputs.cache
+C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\obj\Debug\net8.0\ProductManagementApp.DAL.dll
+C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\obj\Debug\net8.0\refint\ProductManagementApp.DAL.dll
+C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\obj\Debug\net8.0\ProductManagementApp.DAL.pdb
+C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\obj\Debug\net8.0\ProductManagementApp.DAL.genruntimeconfig.cache
+C:\Users\lukas\source\repos\ProductManagementApp\ProductManagementApp.DAL\obj\Debug\net8.0\ref\ProductManagementApp.DAL.dll
